@@ -1,0 +1,82 @@
+/****************************************
+  Inherited Syles
+*****************************************/
+
+/*
+See this explanation for details
+https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+*/
+
+html {
+    box-sizing: border-box;
+    color: #444;
+    font: 12pt 'Open Sans', Arial;
+    font-weight: 300;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+
+/****************************************
+  Defaults
+*****************************************/
+
+
+/****************************************
+  Helpers
+*****************************************/
+
+
+/****************************************
+  Layout
+*****************************************/
+body {
+  background-color: #0082C1
+}
+
+.content-left, .content-right {
+  background-color: #fff;
+  display: block;
+  margin: 15px;
+  height: 500px;
+  border-radius: 5px;
+  padding: 15px;
+  float: left;
+}
+
+/****************************************
+  Components
+*****************************************/
+
+.welcome-heading, .main-heading {
+  font: 20pt 'Allan';
+}
+
+.input {
+  margin: 5px;
+  display: inline-block;
+}
+
+.content-left {
+  width: 30%;
+}
+
+.content-right {
+  width: 63%;
+}
+
+.divider {
+  border-bottom: 2px solid #8a8a8a;
+}
+
+
+/* Need to look into more to fix between email copy and input bar. Brad videos in Milestone 2*/
+
+.divider-container { 
+  margin-left: 120px;
+}
