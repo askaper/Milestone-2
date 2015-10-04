@@ -26,6 +26,10 @@ html {
   Defaults
 *****************************************/
 
+body {
+  background-color: #0082C1
+}
+
 
 /****************************************
   Helpers
@@ -35,9 +39,6 @@ html {
 /****************************************
   Layout
 *****************************************/
-body {
-  background-color: #0082C1
-}
 
 .content-left, .content-right {
   background-color: #fff;
@@ -77,6 +78,6 @@ body {
 
 /* Need to look into more to fix between email copy and input bar. Brad videos in Milestone 2*/
 
-.divider-container { 
+.divider-container {
   margin-left: 120px;
 }
