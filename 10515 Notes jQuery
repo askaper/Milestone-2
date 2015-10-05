@@ -1,0 +1,51 @@
+
+
+
+
+
+
+$('<div>') //go find divs
+
+
+var $div = $('<div>').addClass('foo') //find divs, add class of foo to divs
+
+$div.attr('id', 'bar')
+
+
+$('div').html('<span><b></b></span>') //go find any of these elements
+
+
+$('body').html($div)
+
+
+7-15 all in memory, ln 18 actually
+
+
+
+var $div = $('<div>', {
+  class: 'foo',
+  id: 'bar',
+
+})
+
+
+
+var $li = $('<li>')
+$li.html($div)
+
+
+
+$('ul').html($li)
+
+jQuery notes 10/5/15.
+
+
+
+var makeDiv = function(options) {
+  return$('<div>', options)
+}
+
+$div = makeDiv ({
+  class: 'foo',
+  id: 'bar',
+})

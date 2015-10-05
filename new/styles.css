@@ -24,6 +24,9 @@ html {
 /****************************************
   Defaults
 *****************************************/
+body {
+  background-color: #0082C1;
+  display: flex;
 
 
 /****************************************
@@ -34,9 +37,6 @@ html {
 /****************************************
   Layout
 *****************************************/
-body {
-  background-color: #0082C1;
-  display: flex;
 }
 .copy-content, .form-content {
   background-color: #fff;
@@ -78,7 +78,7 @@ body {
   border-bottom: 2px solid #ccc;}
 
 .form-field {
-  
+
 }
 
 .submit, .cancel {
