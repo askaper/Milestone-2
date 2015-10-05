@@ -27,17 +27,20 @@ html {
 body {
   background-color: #0082C1;
   display: flex;
+}
+
+.buttons {
+  margin-top: 5px;
+  color: #fff;
+  
+}
+
 
 
 /****************************************
   Helpers
 *****************************************/
 
-
-/****************************************
-  Layout
-*****************************************/
-}
 .copy-content, .form-content {
   background-color: #fff;
   height: 400px;
@@ -46,6 +49,11 @@ body {
   padding: 15px;
   float: left;
 }
+
+/****************************************
+  Layout
+*****************************************/
+
 
 .copy-content {
   flex: 0.25;
@@ -77,20 +85,10 @@ body {
 .divider {
   border-bottom: 2px solid #ccc;}
 
-.form-field {
-
-}
-
-.submit, .cancel {
-  border-radius: 7px;
-  margin-top: 5px;
-}
-
-.submit {
+.go-button {
   background-color: #93d36c;
-  color: #fff
 }
 
-.cancel {
+.danger-button {
   background-color: #d40202;
 }
