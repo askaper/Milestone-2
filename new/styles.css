@@ -32,7 +32,6 @@ body {
 .buttons {
   margin-top: 5px;
   color: #fff;
-  
 }
 
 
@@ -83,7 +82,8 @@ body {
 }
 
 .divider {
-  border-bottom: 2px solid #ccc;}
+  border-bottom: 2px solid #ccc;
+  margin-right: 10px;}
 
 .go-button {
   background-color: #93d36c;
