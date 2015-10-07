@@ -24,20 +24,20 @@ html {
 /****************************************
   Defaults
 *****************************************/
+
 body {
   background-color: #0082C1;
   display: flex;
 }
 
-.buttons {
-  margin-top: 5px;
-  color: #fff;
-}
+/****************************************
+  Helpers
+*****************************************/
 
 
 
 /****************************************
-  Helpers
+  Layout
 *****************************************/
 
 .copy-content, .form-content {
@@ -49,17 +49,12 @@ body {
   float: left;
 }
 
-/****************************************
-  Layout
-*****************************************/
-
-
 .copy-content {
   flex: 0.25;
   margin-right: 10px;
 }
 
-.form-content {
+.form-content  {
   flex: 0.75;
 }
 
@@ -72,18 +67,36 @@ body {
   font-size: 22pt;
 }
 
-.divider-container {
+
+.field-container {
   padding-bottom: 4px;
   margin-left: 100px;
+  width: 100px;
 }
 
-.divider:not(:first-child) {
+.form-field {
+  flex: 1;
+}
+
+.field-divider:not(:first-child) {
   padding-top: 4px;
 }
 
-.divider {
+.field-divider {
   border-bottom: 2px solid #ccc;
-  margin-right: 10px;}
+  margin-right: 10px;
+  display: flex;
+  padding-bottom: 4px;
+}
+
+.button-setup {
+  border-radius: 5px;
+  margin-top: 5px;
+  color: #fff;
+  border: none;
+  font-family: 'Open Sans';
+  box-shadow: 2px 2px grey;
+}
 
 .go-button {
   background-color: #93d36c;
