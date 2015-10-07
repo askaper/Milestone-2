@@ -68,28 +68,35 @@ body {
 }
 
 
-.field-container {
+.container .form-label {
   padding-bottom: 4px;
   margin-left: 100px;
-  width: 100px;
 }
 
+.form-label {
+  display: flex;
+
+}
+
+.bullshit {
+  width: 50px;
+}
 .form-field {
   flex: 1;
 }
 
-.field-divider:not(:first-child) {
+.form-label:not(:first-child) {
   padding-top: 4px;
 }
 
-.field-divider {
+.container {
   border-bottom: 2px solid #ccc;
   margin-right: 10px;
   display: flex;
   padding-bottom: 4px;
 }
 
-.button-setup {
+.button {
   border-radius: 5px;
   margin-top: 5px;
   color: #fff;
@@ -98,10 +105,10 @@ body {
   box-shadow: 2px 2px grey;
 }
 
-.go-button {
+.button.go-button {
   background-color: #93d36c;
 }
 
-.danger-button {
+.button.danger-button {
   background-color: #d40202;
 }
