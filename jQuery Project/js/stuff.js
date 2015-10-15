@@ -1,41 +1,6 @@
-// $(function(){
-//
-//   number = 3;
-//   number++;
-//   var increment = '#task-' + number;
-//
-//   $('#create-btn').on('click', function(){
-//
-//
-//     var label = $('<label>')
-//     label.attr('for', 'increment')
-//     label.addClass('text')
-//
-//     var typeInput = $('#create-text').val();
-//     var item = $('<div>').addClass('task');
-//
-//
-//     var box = $('<input>')
-//     box.attr('id', 'increment')
-//     box.attr('type', 'checkbox')
-//
-//     // item.html(typeInput);
-//     $('#tasks').append(item);
-//     item.append(box).append(typeInput)
-//
-//     label.attr('for', 'increment')
-//     label.addClass('text')
-//
-//     console.log('this works');
-//
-//   });
-//
-// });
-
-
 $(function(){
 
-  num = 0;
+  num = 3;
   $('form').on('submit', function(){
 
     num++
